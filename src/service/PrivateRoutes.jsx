@@ -1,4 +1,4 @@
-import { Outlet, Navigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import React from "react";
 import { Stack, CircularProgress } from "@mui/material";
 import { useAppContext } from "../context/appContext";

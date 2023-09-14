@@ -3,8 +3,8 @@ import { useContext } from "react";
 import { ColorModeContext, tokens } from "../../../theme";
 import InputBase from "@mui/material/InputBase";
 import {
-  LightModeOutlined,
-  DarkModeOutlined,
+  // LightModeOutlined,
+  // DarkModeOutlined,
   NotificationsOutlined,
   SettingsOutlined,
   PersonOutlined,

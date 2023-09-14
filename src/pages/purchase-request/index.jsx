@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { useTheme, Box, Typography } from "@mui/material";
 import { tokens } from "../../theme";
@@ -58,8 +58,11 @@ const PurchaseRequest = () => {
     if (fieldValues === values)
       return Object.values(temp).every((x) => x === "");
   };
-  const { values, setValues, errors, setErrors, handleInputChange, resetForm } =
-    useForm(initialFValues, validate, true);
+  const { values, setValues, errors, setErrors, handleInputChange } = useForm(
+    initialFValues,
+    validate,
+    true
+  ); //, resetForm
 
   const addItem = (item) => {
     // console.log(item);
