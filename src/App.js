@@ -1,10 +1,9 @@
-import { ColorModeContext, useMode } from "./theme";
+import { ColorModeContext, useMode, tokens } from "./theme";
 import { CssBaseline, ThemeProvider, Box, Typography } from "@mui/material";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MyProSidebarProvider } from "./pages/global/sidebar/sidebarContext";
 
 import { useAppContext } from "./context/appContext";
-import { tokens } from "./theme";
 import PrivateRoutes from "./service/PrivateRoutes";
 import Topbar from "./pages/global/topbar/Topbar";
 import Dashboard from "./pages/dashboard";

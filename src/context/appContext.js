@@ -30,8 +30,8 @@ const keycloakConfig = {
 const keycloakInitOptions = {
   onLoad: "login-required",
   redirectUri: window.location.origin,
-  // responseMode: "query",
   // checkLoginIframe: false,
+  // responseMode: "query",
 };
 
 const keycloak = new Keycloak(keycloakConfig);

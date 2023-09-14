@@ -143,7 +143,7 @@ const MyProSidebar = () => {
                     // src={userImage}
                     sx={{
                       bgcolor: colors.image[600],
-                      border: `1px solid ${colors.image[100]}`,
+                      border: `3px solid ${colors.image[100]}`,
                       width: 60,
                       height: 60,
                       fontSize: 24,
