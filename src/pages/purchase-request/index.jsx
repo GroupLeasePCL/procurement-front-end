@@ -75,7 +75,6 @@ const PurchaseRequest = () => {
         item,
         ...values.orderItems.slice(recordIndex + 1),
       ];
-      // console.log(orderItemsTemp);
 
       setValues({ ...values, orderItems: orderItemsTemp });
     } else if (type === "addItem") {
@@ -129,7 +128,6 @@ const PurchaseRequest = () => {
   return (
     <Box m="20px">
       <Header title="Purchase Request" subtitle="Purchase Request items" />
-
       <Form>
         <Box
           display="grid"
@@ -156,7 +154,6 @@ const PurchaseRequest = () => {
             </Typography>
           </Box>
         </Box>
-
         <Box
           gap="10px"
           p="12px 15px"
@@ -166,7 +163,6 @@ const PurchaseRequest = () => {
             "& > div": "span 4",
             gridTemplateColumns:
               "repeat(auto-fit, minmax(320px, 1fr))!important",
-
             // "repeat(auto-fill, [col-start] minmax(420px, 1fr) [col-end])",
           }}
           border={`1px solid ${colors.grey[100]}`}
@@ -308,7 +304,6 @@ const PurchaseRequest = () => {
             value={values.requestor}
             disabled
           />
-
           <Controls.DatetimePicker
             name="requestorDate"
             label="วันที่ อนุมัติ"
@@ -327,7 +322,6 @@ const PurchaseRequest = () => {
             value={values.approve}
             disabled
           />
-
           <Controls.DatetimePicker
             name="approveDate"
             label="วันที่ อนุมัติ"
@@ -349,7 +343,6 @@ const PurchaseRequest = () => {
           addItemAttachFile={addItemAttachFile}
           mockDataFile={mockDataFile}
         />
-
         <Box
           display="flex"
           justifyContent="start"
@@ -361,7 +354,7 @@ const PurchaseRequest = () => {
             onClick={handleSubmit}
             color="secondary"
             variant="contained"
-            text=" Create Purchase order"
+            text=" Create Purchase Request"
             size="small"
             // style={{ fontSize: "18px", FontFace: 200 }}
           />

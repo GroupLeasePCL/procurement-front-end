@@ -8,6 +8,8 @@ import PrivateRoutes from "./service/PrivateRoutes";
 import Topbar from "./pages/global/topbar/Topbar";
 import Dashboard from "./pages/dashboard";
 import PurchaseRequest from "./pages/purchase-request";
+import PurchaseRequestList from "./pages/purchase-request-list";
+import PurchaseOrder from "./pages/purchase-order";
 import Profile from "./pages/profile";
 import Error from "./pages/error";
 
@@ -60,6 +62,11 @@ function App() {
                       path="/purchase-request"
                       element={<PurchaseRequest />}
                     />
+                    <Route
+                      path="/purchase-request-list"
+                      element={<PurchaseRequestList />}
+                    />
+                    <Route path="/purchase-order" element={<PurchaseOrder />} />
                     <Route path="/profile" element={<Profile />} />
                     <Route path="*" element={<Error />} />
                   </Route>

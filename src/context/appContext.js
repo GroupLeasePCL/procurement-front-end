@@ -29,7 +29,7 @@ const keycloakConfig = {
 
 const keycloakInitOptions = {
   onLoad: "login-required",
-  redirectUri: window.location.origin,
+  // redirectUri: window.location.origin,
   // checkLoginIframe: false,
   // responseMode: "query",
 };

@@ -29,25 +29,28 @@ export default function DatetimePicker(props) {
               "& .MuiPaper-root": {
                 border: "1px solid black",
                 backgroundColor: colors.popupBackgroundColor[300],
+                "& .Mui-selected": {
+                  color: `${common.black}`,
+                  backgroundColor: `${colors.dateBtn["backgroundColor"]}`,
+                },
               },
-
-              "& .Mui-selected": {
-                backgroundColor: colors.popupBackgroundColor[100],
-              },
-
               "& .MuiPickersLayout-contentWrapper": {
                 marginBottom: "-45px",
               },
-              "&  .MuiPickersDay-dayWithMargin": {
+              "& .MuiPickersDay-dayWithMargin": {
                 ":hover": {
-                  color: `${colors.textMenu[500]}`,
-                  backgroundColor: `${colors.textMenu[900]}`,
+                  color: `${common.black}`,
+                  backgroundColor: `${colors.dateBtn["backgroundColor"]}`,
                 },
               },
 
               "& .MuiButton-root": {
-                backgroundColor: colors.greenAccent[500],
                 color: common.black,
+                backgroundColor: colors.dateBtn["backgroundColor"],
+                ":hover": {
+                  color: common.black,
+                  backgroundColor: colors.dateBtn["hoverColor"],
+                },
               },
             },
           },
@@ -69,7 +72,7 @@ export default function DatetimePicker(props) {
             InputLabelProps: {
               sx: {
                 fontSize: "1.3vh",
-                top: "-0.25vh",
+                top: "-0.95vh",
                 "&.MuiInputLabel-shrink": { top: 1 },
               },
             },

@@ -46,8 +46,8 @@ export const listMenu = [
             icon: <RecentActorsRounded />,
           },
           {
-            name: "PR-lists",
-            to: "/purchase-request-lists",
+            name: "PR-list",
+            to: "/purchase-request-list",
             icon: <ViewListRounded />,
           },
         ],
@@ -62,8 +62,8 @@ export const listMenu = [
             icon: <RecentActorsRounded />,
           },
           {
-            name: "PO-lists",
-            to: "/purchase-order-lists",
+            name: "PO-list",
+            to: "/purchase-order-list",
             icon: <ViewListRounded />,
           },
         ],

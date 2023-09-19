@@ -1,0 +1,53 @@
+import { tokens } from "../../../theme";
+
+export const mockDataPurchaseRequests = [
+  {
+    id: 1,
+    requestNo: "PR-230900001",
+    requestDate: "15-08-2023",
+    requestName: "Soraritt Chawapee",
+    department: "Group IT",
+    phone: "091-8622926",
+    NumberItems: 6,
+    approveName: "Paponpat Thanyapakworadet",
+    approveDate: "23-08-2023",
+    status: "approve",
+  },
+  {
+    id: 2,
+    requestNo: "PR-230900002",
+    requestDate: "15-08-2023",
+    requestName: "Soraritt Chawapee",
+    department: "Group IT",
+    phone: "091-8622926",
+    NumberItems: 3,
+    approveName: "Paponpat Thanyapakworadet",
+    approveDate: "23-08-2023",
+    status: "reject",
+  },
+
+  {
+    id: 3,
+    requestNo: "PR-230900003",
+    requestDate: "15-08-2023",
+    requestName: "Soraritt Chawapee",
+    department: "Group IT",
+    phone: "091-8622926",
+    NumberItems: 1,
+    approveName: "Paponpat Thanyapakworadet",
+    approveDate: "23-08-2023",
+    status: "waiting",
+  },
+  {
+    id: 4,
+    requestNo: "PR-230900003",
+    requestDate: "15-08-2023",
+    requestName: "Soraritt Chawapee",
+    department: "Group IT",
+    phone: "091-8622926",
+    NumberItems: 1,
+    approveName: "Paponpat Thanyapakworadet",
+    approveDate: "23-08-2023",
+    status: "waiting",
+  },
+];

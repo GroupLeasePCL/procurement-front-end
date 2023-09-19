@@ -82,6 +82,11 @@ export const tokens = (mode) => ({
           100: "#dbf5ee",
         },
         textMenu: { 500: "#6870fa", 900: "#141414", 1000: common.white },
+        dateBtn: {
+          text: common.black,
+          backgroundColor: "#4cceac",
+          hoverColor: "#2e7c67",
+        },
         closeBtn: {
           backgroundColor: "#f8d7da",
           color: "#842029",
@@ -165,6 +170,11 @@ export const tokens = (mode) => ({
           900: "#044e54",
         },
         textMenu: { 500: common.black, 900: "#858585", 1000: common.black },
+        dateBtn: {
+          text: common.black,
+          backgroundColor: "#4cceac",
+          hoverColor: "#2e7c67",
+        },
         closeBtn: {
           backgroundColor: "#f8d7da",
           color: "#842029",
