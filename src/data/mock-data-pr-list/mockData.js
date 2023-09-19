@@ -1,4 +1,4 @@
-import { tokens } from "../../../theme";
+import { tokens } from "../../theme";
 
 export const mockDataPurchaseRequests = [
   {
@@ -20,7 +20,7 @@ export const mockDataPurchaseRequests = [
     requestName: "Soraritt Chawapee",
     department: "Group IT",
     phone: "091-8622926",
-    NumberItems: 3,
+    NumberItems: 5,
     approveName: "Paponpat Thanyapakworadet",
     approveDate: "23-08-2023",
     status: "reject",

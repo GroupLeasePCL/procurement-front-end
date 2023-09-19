@@ -6,7 +6,7 @@ import ReactToPrint from "react-to-print";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import Controls from "../../components/controls/Controls";
-import { mockDataPurchaseRequests } from "./mock-data/mockData";
+import { mockDataPurchaseRequests } from "../../data/mock-data-pr-list/mockData";
 
 const PurchaseRequestList = () => {
   const theme = useTheme();

@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import Controls from "../../components/controls/Controls";
 import { useForm, Form } from "../../components/useForm";
 import { useAppContext } from "../../context/appContext";
-import { mockTransactions } from "../../data/mockData";
+import { mockTransactions } from "../../data/mock-data-po/mockData";
 
 const initialFValues = {
   purchaseOrder: "PR-230900001",
@@ -70,7 +70,7 @@ const PurchaseOrder = () => {
               sx={{
                 "& > div": "span 4",
                 gridTemplateColumns:
-                  "repeat(auto-fit, minmax(320px, 1fr))!important",
+                  "repeat(auto-fit, minmax(240px, 1fr))!important",
               }}
               borderRadius="4px"
             >

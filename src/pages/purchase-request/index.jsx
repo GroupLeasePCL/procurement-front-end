@@ -11,7 +11,7 @@ import {
   mockDataPurchaseOrder,
   columnsOrder,
   columnsFile,
-} from "./mock-data/data";
+} from "../../data/mock-data-pr/mockData";
 import ListAttachFiles from "./ListAttachFiles";
 import ListOrders from "./ListOrders";
 import { useAppContext } from "../../context/appContext";
